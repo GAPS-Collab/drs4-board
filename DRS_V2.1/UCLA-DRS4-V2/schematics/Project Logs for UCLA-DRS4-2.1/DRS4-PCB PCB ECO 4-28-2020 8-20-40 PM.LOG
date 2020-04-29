@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=TRB_GND Pin=C131-2
+Removed Pin From Net: NetName=POR Pin=Q38-1
+Removed Pin From Net: NetName=POR Pin=Q38-1
+Removed Pin From Net: NetName=POR Pin=Q38-1
+Removed Pin From Net: NetName=POR Pin=Q38-1
+Removed Pin From Net: NetName=NetQ38_2 Pin=U1-6
+Change Component Footprint: Designator=C131 Old Footprint=Cap_Murata_GRM31CR71E106MA12L_10uF New Footprint=Cap_Murata_GCJ188R71E105KA01J_1uF
+Change Component Comment : Designator=C131 Old Comment=Cap_Murata_GRM31CR71E106MA12L_10uF New Comment=Cap_Murata_GCJ188R71E105KA01J_1uF
+Change component parameters: Designator = "C131" ("C131"); Footprint = "Cap_Murata_GRM31CR71E106MA12L_10uF"; UniqueID = "\HWAUTUQI\SIBOWCSB\RVKSFECS" ("\HWAUTUQI\SIBOWCSB\RVKSFECS")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF X7R 25V 0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GCJ188R71E105KA1J"; VariantName = "[No Variations]"
+Added Component: Designator=R388(Res_Vishay_CRCW06030000Z0EAHP_0_Ohm_duplicate)
+Add component (AddParameter): Name = "Resistance"; Value = "0R 1% 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-CRCW06030000Z0EAH"; VariantName = "[No Variations]"
+Added Component: Designator=R389(Res_Vishay_CRCW06030000Z0EAHP_0_Ohm_duplicate)
+Add component (AddParameter): Name = "Resistance"; Value = "0R 1% 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-CRCW06030000Z0EAH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TRB_GND Pin=C131-1
+Added Pin To Net: NetName=POR Pin=R388-1
+Added Pin To Net: NetName=NetQ38_2 Pin=R389-1
+Added Pin To Net: NetName=NetC131_2 Pin=C131-2
+Added Pin To Net: NetName=NetC131_2 Pin=U2-3
+Added Net: Name=NetC131_2
+Added Pin To Net: NetName=NetQ38_1 Pin=Q38-1
+Added Pin To Net: NetName=NetQ38_1 Pin=Q38-1
+Added Pin To Net: NetName=NetQ38_1 Pin=Q38-1
+Added Pin To Net: NetName=NetQ38_1 Pin=Q38-1
+Added Pin To Net: NetName=NetQ38_1 Pin=R388-2
+Added Net: Name=NetQ38_1
+Added Pin To Net: NetName=NetR389_2 Pin=R389-2
+Added Pin To Net: NetName=NetR389_2 Pin=U1-6
+Added Net: Name=NetR389_2
+Added Member To Class: ClassName=MarsZX2 PWR Reset Member=Component R388 Res_Vishay_CRCW06030000Z0EAHP_0_Ohm
+Added Member To Class: ClassName=MarsZX2 PWR Reset Member=Component R389 Res_Vishay_CRCW06030000Z0EAHP_0_Ohm

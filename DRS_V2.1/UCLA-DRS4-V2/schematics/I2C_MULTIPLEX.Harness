@@ -1,0 +1,17 @@
+-1V Current Sensor I2C=SCL,SDA
+3V3 Current Sensor I2C=SCL,SDA
+3V3 Zynq Current Sensor I2C=SCL,SDA
+4V Current Sensor I2C=SCL,SDA
+ADC AVDD Current Sensor I2C=SCL,SDA
+ADC DVDD Current Sensor I2C=SCL,SDA
+ADC Temp Sensor I2C=SCL,SDA
+Clk Synth Temp Sensor I2C=SCL,SDA
+Clock Synth I2C=SCL,SDA
+DAC  I2C=SCL,SDA
+DRS4 AVDD Current Sensor I2C=SCL,SDA
+DRS4 Current Sensor I2C=SCL,SDA
+DRS4 Temp Sensor I2C=SCL,SDA
+GPIO Expander I2C=SCL,SDA
+Humidity Sensor I2C=SCL,SDA
+Magnetic Field Sensor I2C=SCL,SDA
+Mars I2C=SCL,SDA
