@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\Ismae\Dropbox\GAPS\DRS\DRS_V2.1\UCLA-DRS4-V2\schematics\DRS4-PCB.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=4.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

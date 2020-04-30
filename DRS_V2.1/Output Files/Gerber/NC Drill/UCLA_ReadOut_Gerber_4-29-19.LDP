@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Ismae\Dropbox\GAPS\DRS\DRS_V2.1\UCLA-DRS4-V2\schematics\DRS4-PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=ucla_readout_gerber_4-29-19-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=ucla_readout_gerber_4-29-19-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl

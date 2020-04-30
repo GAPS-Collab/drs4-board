@@ -106,3 +106,7 @@ Determine cause of reflectios:
   ==================
  - Need to enable ports for debugging
  -
+   V2.1
+  4/29/2020
+  ======================================
+  PCB Impedance updated with latest correct stackup.
