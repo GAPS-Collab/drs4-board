@@ -1,6 +1,0 @@
--1V Current Sensor I2C=SCL,SDA
-3V3 Current Sensor I2C=SCL,SDA
-4V Current Sensor I2C=SCL,SDA
-Clk Synth Temp Sensor I2C=SCL,SDA
-Humidity Sensor I2C=SCL,SDA
-Magnetic Field Sensor I2C=SCL,SDA
