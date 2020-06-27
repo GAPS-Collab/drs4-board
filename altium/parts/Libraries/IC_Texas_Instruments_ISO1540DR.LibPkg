@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=IC_Texas_Instruments_ISO1541DR.PcbLib
+DocumentPath=IC_Texas_Instruments_ISO1540DR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -52,10 +52,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RXMSHNFA
 
 [Document2]
-DocumentPath=IC_Texas_Instruments_ISO1541DR.SchLib
+DocumentPath=IC_Texas_Instruments_ISO1540DR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
