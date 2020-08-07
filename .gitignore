@@ -5,3 +5,7 @@ mfg/gerber/
 pdf/
 altium/schematics/__Previews/
 altium/schematics/History/
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
