@@ -6872,40 +6872,6 @@ GenerateClassCluster=0
 DocumentUniqueId=UAQNWLCS
 
 [Document403]
-DocumentPath=..\parts\Libraries\LDO_Microchip_MCP1812AT-018_1V8.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HOFRWYJV
-
-[Document404]
-DocumentPath=..\parts\Libraries\LDO_Microchip_MCP1812AT-018_1V8.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PEXCIQDR
-
-[Document405]
 DocumentPath=DRS4-PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -6922,7 +6888,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OPXRHGOF
 
-[Document406]
+[Document404]
 DocumentPath=DRS4_GPIO_EXPANDER.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -6939,7 +6905,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document407]
+[Document405]
 DocumentPath=..\parts\Libraries\LDO_Microchip_MIC69502WR-TR_ADJ.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -6956,7 +6922,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFBCSQXF
 
-[Document408]
+[Document406]
 DocumentPath=..\parts\Libraries\LDO_Microchip_MIC69502WR-TR_ADJ.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -6973,7 +6939,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XOPIDVGU
 
-[Document409]
+[Document407]
 DocumentPath=..\parts\Libraries\LDO_Analog_Devices_ADM7170ACPZ-2.5-R7_2.5V.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -6990,7 +6956,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CNGODUNK
 
-[Document410]
+[Document408]
 DocumentPath=..\parts\Libraries\Res_Yageo_RC0402FR-132K49L_2.48kOhm.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7007,7 +6973,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ADCFDAYJ
 
-[Document411]
+[Document409]
 DocumentPath=..\parts\Libraries\Res_Yageo_RC0402FR-132K49L_2.48kOhm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7024,7 +6990,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=USPCCERO
 
-[Document412]
+[Document410]
 DocumentPath=..\parts\Libraries\Diode_ON_Semiconductor_1N4148WT_300mA.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7041,7 +7007,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUCQMAOF
 
-[Document413]
+[Document411]
 DocumentPath=..\parts\Libraries\Diode_ON_Semiconductor_1N4148WT_300mA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7058,7 +7024,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MDBQJEGT
 
-[Document414]
+[Document412]
 DocumentPath=..\parts\Libraries\IC_NXP_PCA9548ABS,118_I2C_8Channel.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7075,7 +7041,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EFAOBWFF
 
-[Document415]
+[Document413]
 DocumentPath=..\parts\Libraries\IC_NXP_PCA9548ABS,118_I2C_8Channel.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7092,7 +7058,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IBHRNPVM
 
-[Document416]
+[Document414]
 DocumentPath=I2C_MULTIPLEX.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7109,7 +7075,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVFKPPRD
 
-[Document417]
+[Document415]
 DocumentPath=I2C_MULTIPLEX.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7126,7 +7092,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document418]
+[Document416]
 DocumentPath=..\parts\Libraries\LDO_Texas_Instruments_TLV70218QDSERQ1_300mA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7143,7 +7109,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MABWOKCA
 
-[Document419]
+[Document417]
 DocumentPath=..\parts\Libraries\LDO_Texas_Instruments_TLV70218QDSERQ1_300mA.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7160,7 +7126,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNPVONIE
 
-[Document420]
+[Document418]
 DocumentPath=1V8_SUPPLY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7177,7 +7143,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTNKGJPH
 
-[Document421]
+[Document419]
 DocumentPath=..\parts\Libraries\LDO_Analog_Devices_ADM7170ACPZ-2.5-R7_2.5V.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7194,7 +7160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUKJHLJC
 
-[Document422]
+[Document420]
 DocumentPath=..\parts\Libraries\USB_Molex_204926-1103.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7211,7 +7177,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XHOQQPXO
 
-[Document423]
+[Document421]
 DocumentPath=..\parts\Libraries\USB_Molex_204926-1103.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7228,7 +7194,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNSFQYHI
 
-[Document424]
+[Document422]
 DocumentPath=..\parts\Libraries\ESD_LittleFuse_SP3304NUTG _3V3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7245,7 +7211,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HIGFFVRL
 
-[Document425]
+[Document423]
 DocumentPath=..\parts\Libraries\ESD_LittleFuse_SP3304NUTG _3V3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7262,7 +7228,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HUJGIJJS
 
-[Document426]
+[Document424]
 DocumentPath=..\parts\Libraries\SIPM_GND.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7279,7 +7245,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OTAEQRXN
 
-[Document427]
+[Document425]
 DocumentPath=..\parts\Libraries\Cap_Kemet_T521B226M025ATE100_22uF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7296,7 +7262,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HQRXWCRP
 
-[Document428]
+[Document426]
 DocumentPath=..\parts\Libraries\Cap_Kemet_T521B226M025ATE100_22uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7313,7 +7279,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RPSDJVIK
 
-[Document429]
+[Document427]
 DocumentPath=..\parts\Libraries\SRes_KOA_PSG4NTEB1L00F_1mOhm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7330,7 +7296,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DVXIBGLW
 
-[Document430]
+[Document428]
 DocumentPath=..\parts\Libraries\Mos_ROHM_RSJ250P10FRATL_25A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7347,7 +7313,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHIEQDMM
 
-[Document431]
+[Document429]
 DocumentPath=..\parts\Libraries\Mos_ROHM_RSJ250P10FRATL_25A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7364,7 +7330,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WEBMHFIX
 
-[Document432]
+[Document430]
 DocumentPath=..\parts\Libraries\SRes_KOA_PSG4NTEB1L00F_1mOhm.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7381,7 +7347,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EJFBCUXO
 
-[Document433]
+[Document431]
 DocumentPath=..\parts\Libraries\TP_Keystone_Electronics_5006.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7398,7 +7364,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HHTMPQAO
 
-[Document434]
+[Document432]
 DocumentPath=..\parts\Libraries\TP_Keystone_Electronics_5006.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7415,7 +7381,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KVDJYKJN
 
-[Document435]
+[Document433]
 DocumentPath=..\parts\Libraries\Cap_Murata_GJM1555C1H200GB01D_20pF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7432,7 +7398,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NPFSKGPE
 
-[Document436]
+[Document434]
 DocumentPath=..\parts\Libraries\Cap_Murata_GJM1555C1H200GB01D_20pF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7449,7 +7415,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ILOMUWJS
 
-[Document437]
+[Document435]
 DocumentPath=..\parts\Libraries\Cap_Kemet_C0402C562K5RACAUTO_5.6nF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7466,7 +7432,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTYEKWLD
 
-[Document438]
+[Document436]
 DocumentPath=..\parts\Libraries\Cap_Kemet_C0402C562K5RACAUTO_5.6nF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7483,7 +7449,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=REMIXGFJ
 
-[Document439]
+[Document437]
 DocumentPath=MARS_PORB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7500,7 +7466,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YXAOAMQF
 
-[Document440]
+[Document438]
 DocumentPath=..\parts\Libraries\PMU_Texas_Instruments_TLC7733IPWR_2.93.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7517,7 +7483,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document441]
+[Document439]
 DocumentPath=..\parts\Libraries\PMU_Texas_Instruments_TLC7733IPWR_2.93.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7534,7 +7500,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYVAOICQ
 
-[Document442]
+[Document440]
 DocumentPath=..\parts\Libraries\Cap_Murata_GRM31CR71E106MA12L_10uF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7551,7 +7517,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNEWJMTV
 
-[Document443]
+[Document441]
 DocumentPath=..\parts\Libraries\Cap_Murata_GRM31CR71E106MA12L_10uF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7568,7 +7534,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document444]
+[Document442]
 DocumentPath=..\parts\Libraries\Cap_Murata_GCQ1555C1H120FB01D_12pF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7585,7 +7551,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XOJUWDOR
 
-[Document445]
+[Document443]
 DocumentPath=..\parts\Libraries\Cap_Murata_GCQ1555C1H120FB01D_12pF.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7602,7 +7568,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITJCIYQC
 
-[Document446]
+[Document444]
 DocumentPath=..\parts\Libraries\IC_ROHM_BU4230FVE-TR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7619,7 +7585,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WREYIOSN
 
-[Document447]
+[Document445]
 DocumentPath=..\parts\Libraries\IC_ROHM_BU4230FVE-TR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7636,7 +7602,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YUFDQWMQ
 
-[Document448]
+[Document446]
 DocumentPath=..\parts\Libraries\Res_Vishay_CRCW04020000Z0EDC_0_Ohm.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7653,7 +7619,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YIPLFIPN
 
-[Document449]
+[Document447]
 DocumentPath=..\parts\Libraries\Res_Vishay_CRCW04020000Z0EDC_0_Ohm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7670,7 +7636,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UESSIOIR
 
-[Document450]
+[Document448]
 DocumentPath=..\parts\Libraries\Diode_SP3003-04ATG_LVDS_ESD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7687,7 +7653,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVIPFINB
 
-[Document451]
+[Document449]
 DocumentPath=..\parts\Libraries\Diode_SP3003-04ATG_LVDS_ESD.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7704,7 +7670,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WBMHQYIV
 
-[Document452]
+[Document450]
 DocumentPath=..\parts\Libraries\Diode_SP3003-02UTG_LVDS_ESD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7721,7 +7687,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VOPUIHYL
 
-[Document453]
+[Document451]
 DocumentPath=UCLA-DRS4-2.1.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7738,7 +7704,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document454]
+[Document452]
 DocumentPath=..\parts\Libraries\IC_Texas_Instruments_ISO1540DR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7755,7 +7721,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXMSHNFA
 
-[Document455]
+[Document453]
 DocumentPath=..\parts\Libraries\IC_Texas_Instruments_ISO1540DR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7772,7 +7738,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWFEETOY
 
-[Document456]
+[Document454]
 DocumentPath=I2C_HEADER.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7789,7 +7755,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document457]
+[Document455]
 DocumentPath=..\parts\Libraries\Conn_Wurth_Electronics_629105150521_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7806,7 +7772,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XDWGQLIF
 
-[Document458]
+[Document456]
 DocumentPath=..\parts\Libraries\Conn_Wurth_Electronics_629105150521_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7823,7 +7789,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KGDNYMWN
 
-[Document459]
+[Document457]
 DocumentPath=..\parts\Libraries\IC_AnalogDevices_AD8608ARZ-REEL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7840,7 +7806,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document460]
+[Document458]
 DocumentPath=..\parts\Libraries\IC_AnalogDevices_AD8608ARZ-REEL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7857,7 +7823,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document461]
+[Document459]
 DocumentPath=..\parts\Libraries\LDO_Microchip_MCP1812AT-018TT_1V8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -7874,8 +7840,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document462]
+[Document460]
 DocumentPath=..\parts\Libraries\LDO_Microchip_MCP1812AT-018TT_1V8.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document461]
+DocumentPath=..\parts\Libraries\Conn_Amphenol_132289_eec.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document462]
+DocumentPath=..\parts\Libraries\Conn_Amphenol_132289_eec_0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
