@@ -7891,6 +7891,16 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=3E8A280C-C0EF-49EE-AD88-5410BBE5F314
+Description=DNI
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=R372|UniqueId=\HWAUTUQI\SIBOWCSB\MSBXIAEP|Kind=1|AlternatePart= 
+Variation2=Designator=R376|UniqueId=\HWAUTUQI\SIBOWCSB\RIEQKXKS|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UCLA-DRS4-2.1\Design Rule Check - DRS4-PCB.html
 DItemRevisionGUID=
