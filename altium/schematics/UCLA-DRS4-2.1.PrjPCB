@@ -8041,18 +8041,22 @@ Variation2=Designator=R376|UniqueId=\HWAUTUQI\SIBOWCSB\RIEQKXKS|Kind=1|Alternate
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB-RoundHoles.TXT
+DocumentPath=Project Outputs for UCLA-DRS4-2.1\Design Rule Check - DRS4-PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB-SlotHoles.TXT
+DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB.DRR
+DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=Project Outputs for UCLA-DRS4-2.1\DRS4-PCB.LDP
 DItemRevisionGUID=
 
