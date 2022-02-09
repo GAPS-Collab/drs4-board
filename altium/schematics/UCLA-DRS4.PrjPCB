@@ -8382,23 +8382,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PARVRUOB
 
 [Document491]
-DocumentPath=..\parts\Libraries\REF5020IDR.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FIACFDWT
-
-[Document492]
 DocumentPath=..\parts\Libraries\LDK120DM33R.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8415,7 +8398,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKNIWXUM
 
-[Document493]
+[Document492]
 DocumentPath=CLK_SYNTH.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
