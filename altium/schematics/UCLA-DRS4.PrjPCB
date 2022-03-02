@@ -1056,7 +1056,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document60]
-DocumentPath=..\parts\Libraries\INA226AQDGSRQ1.PcbLib
+DocumentPath=..\parts\Libraries\INA226AIDGSR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1070,10 +1070,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GOAEBWGJ
 
 [Document61]
-DocumentPath=..\parts\Libraries\INA226AQDGSRQ1.SchLib
+DocumentPath=..\parts\Libraries\INA226AIDGSR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
