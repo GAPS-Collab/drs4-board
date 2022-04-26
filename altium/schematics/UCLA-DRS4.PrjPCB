@@ -8689,6 +8689,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVYAEPSU
 
+[Document509]
+DocumentPath=..\parts\MTHNP89MIL.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UVHTFIUE
+
+[Document510]
+DocumentPath=..\parts\MTHNP89MIL.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NTIMFUPR
+
 [ProjectVariant1]
 UniqueID=3E8A280C-C0EF-49EE-AD88-5410BBE5F314
 Description=DNI
@@ -9824,9 +9858,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=IC_Maxim_Electronics_MAX11645EUA+.SchLib
-ComponentDesignItemID0=MAX11645EUA+
-ComponentSymbolReference0=MAX11645EUA+
+ComponentLibraryIdentifier0=MTHNP89MIL.SchLib
+ComponentDesignItemID0=MTHNP89MIL
+ComponentSymbolReference0=MTHNP89MIL
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -9846,20 +9880,10 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Description
-ParameterUpdate4=1
-ParameterName5=Library Reference
-ParameterUpdate5=1
-ParameterName6=Part Number
-ParameterUpdate6=1
-ParameterName7=Supplier 1
-ParameterUpdate7=1
-ParameterName8=Supplier Part Number 1
-ParameterUpdate8=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
