@@ -1,0 +1,292 @@
+# changes 2022/03/30:
+#  - Remove Fuse and FET from input power
+#  - Remove redundant DRS DVDD voltage regulators (x2)
+#  - Clarify naming around Mars startup
+#  - 5395 --> 5345
+#  - Add watchdogs
+#  - Graphical improvements
+#  - Addition of FB to FTDI power
+#  - Addition of FB to clock synthesizer VDDA_3V3 power
+#  - Remove mars vcc1v8 loopback from display
+# changes 2022/04/25:
+#  - “3V3_ZYNQ” also goes to “Voltage Monitor U15” in “Zynq Power”
+#  - Add 3.3V line to “Watchdog U13 (Mars)” in “Zynq Power”
+#  - Add 3.3V line to “Watchdog U12 (IO Expander)” in “Zynq Power"
+#  - Add “CLK Temp Sensor U36” with FB in “Peripheral Power”
+#  - Add “DRS Temp Sensor U22” in “Peripheral Power”
+#  - Add “ADC Temp Sensor U24” in “Peripheral Power"
+#  - Remove “TLV70218QDSERQ1” and “1V8_LIS3MDLTR” in "Peripheral Power”
+#  - “SI53362 + TXCP” needs to be “NB3V8312CMNG” in “Peripheral Power”
+#  - Remove “TPS79333DBVREP” and “CLK_VDDO_3V3” in “Clock Synthesizer Power”
+#  - Remove “TPS79333DBVREP” and “CLK_VDDA_3V3” in “Clock Synthesizer Power”
+#  - Remove “TPS79333DBVREP” and “CLK_VDDS_3V3” in “Clock Synthesizer Power”
+#  - Add another 3.3V line to "INTR/LOL LED” in “Clock Synthesizer Power"
+#  - Add another 4V line to “LDK120DM33R” then “CLK_VDDA_3V3” in "Clock Synthesizer Power”
+#  - Add another 4V line to “LDK120DM33R” then “CLK_VDDS3V3” then “XTAL” in “Clock Synthesizer Power”
+
+digraph {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica" style=filled color=lightblue];
+  edge [fontname = "helvetica", penwidth="2"];
+  node [width=0.5 shape=rectangle];
+
+  subgraph cluster_legend {
+    label=<<FONT POINT-SIZE="20">Legend</FONT>>
+    "Regulators"       [color="lightgreen"]
+    "Power Management" [color="red" style=unfilled]
+    "Components"       [color="lightgray"]
+    "Power Nodes"      [color="lightblue"]
+    "Connectors"       [color="orange"]
+  }
+
+  subgraph cluster_connector {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">Input Connector</FONT>>
+
+    "Molex Connector" [color="orange", width=1.5, height=1.5, fontsize="20pt"]
+    "Molex Connector" -> {"+3V3_SPM15", "+3V3_IN", "-1V_IN", "+4V_IN"}
+  }
+
+  "3V3_ZYNQ" [fontsize="20pt"]
+  "3.3V" [fontsize="20pt"]
+  "4V" [fontsize="20pt"]
+  "-1V" [fontsize="20pt"]
+
+  "-1V_IN" -> fusem1v -> "-1V"
+  "+4V_IN" -> fuse4V -> "4V"
+  "+3V3_IN" -> fuse3v3 -> "3.3V"
+  "+3V3_SPM15" -> fusezynq -> "3V3_ZYNQ"
+  fuse3v3 [label="Current Sense" shape=oval color=red style=unfilled]
+  fusezynq [label="Current Sense" shape=oval color=red style=unfilled]
+  fusem1v [label="Current Sense" shape=oval color=red style=unfilled]
+  fuse4V [label="Current Sense" shape=oval color=red style=unfilled]
+
+  // Zynq
+
+  subgraph cluster_zynq {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">Zynq Power</FONT>>
+    labelloc="bot"
+
+    // define nodes
+    MARS     [style=filled, color=gray, width=2.0, height=2.0, fontsize="20pt"]
+    FET_MARS [label="P-FET\nQ1" shape=oval color=red style=unfilled]
+    pmic1    [label="Voltage\nMonitor\nU14\nVCC=+3V3_ZYNQ" shape=oval color=red style=unfilled]
+    pmic2    [label="Voltage\nMonitor\nU15\nVCC=+3V3_ZYNQ" shape=oval color=red style=unfilled]
+    PWR_EN   [label="PWR_EN" shape=oval color=red style=unfilled]
+    GOOD_EN  [label="PGOOD && PEN\nQ2/Q3" shape=oval color=red style=unfilled]
+    PORB     [label="PORB" shape=oval color=red style=unfilled]
+    WD0      [label="Watchdog\nU12\n(IO Expander)\nVCC=+3V3" shape=oval color=red style=unfilled]
+    WD1      [label="Watchdog\nU13\n(Mars)\nVCC=+3V3" shape=oval color=red style=unfilled]
+
+
+    // pmic connections
+    "3V3_ZYNQ" -> pmic1
+    pmic1 -> PWR_EN [color=green, label="sense"]
+    PWR_EN -> MARS [color=green]
+    PWR_EN -> GOOD_EN [color=green]
+    PWR_EN -> pmic2 [color=green]
+
+    pmic2 -> PORB [color=green]
+    PORB  -> MARS [label="PORB" color=green]
+
+    // watchdog connections
+    WD0 -> PORB [color=green]
+    WD1 -> PORB [color=green]
+
+    MARS -> GOOD_EN [label="Mars\nPGOOD" color=green]
+    GOOD_EN -> FET_MARS [color=green]
+
+    "3V3_ZYNQ" -> FET_MARS
+    FET_MARS -> "VDD_MARS_3V3"
+    "3V3_ZYNQ" -> MARS
+
+    "VDD_MARS_3V3" -> "LDO_VDD_IO_2V5"
+    "LDO_VDD_IO_2V5" -> "VDD_IO_2V5"
+    "LDO_VDD_IO_2V5" [color="lightgreen" label="TPS79525DCQR"]
+
+    "VDD_IO_2V5" -> MARS
+
+    // this is just loopbacked from the mars, not used anywhere else
+    // don't need to include it (consider it internal)
+    // MARS -> "VCC_1V8"
+    // "VCC_1V8" -> MARS
+  }
+
+  // SD Card
+  subgraph cluster_sd {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">SD Power</FONT>>
+    labelloc="bot"
+    SD [style=filled, color=gray]
+    "SD Level Shifter" [label="SD\nLevel\nShifter", style=filled, color=gray]
+    "3.3V" -> "3V3_SD" [label="FB"]
+    "3V3_SD" -> "SD"
+    "3V3_SD" -> "SD Level Shifter"
+    "3.3V" -> "LDO_1V8_TXS02612RTWR"
+    "LDO_1V8_TXS02612RTWR" -> "1V8_TXS02612RTWR"
+    "LDO_1V8_TXS02612RTWR" [color="lightgreen" label="TLV70218QDSERQ1\nU5"]
+    "1V8_TXS02612RTWR" -> "SD Level Shifter"
+  }
+
+  subgraph cluster_peripherals {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">Peripheral Power</FONT>>
+    labelloc="bot"
+
+    // LIS3 [label="LIS3MDLTR\nB-Field Sensor" style=filled, color=gray]
+    // "3.3V" -> "LDO_1V8_LIS3MDLTR"
+    // "LDO_1V8_LIS3MDLTR" -> "1V8_LIS3MDLTR"
+    // "LDO_1V8_LIS3MDLTR" [color="lightgreen" label="TLV70218QDSERQ1"]
+    // "3.3V" -> LIS3 [label="FB"]
+    // "1V8_LIS3MDLTR" -> LIS3
+
+    BME280 [label="BME280\nEnvironmental\nSensor" style=filled, color=gray]
+    "3.3V" -> BME280 [label="FB"]
+
+    CY8C9560 [label="IO\nExpander" style=filled, color=gray]
+    "3.3V" -> CY8C9560
+
+    I2CMUX [label="I2C\nMultiplexers" style=filled, color=gray]
+    "3.3V" -> I2CMUX
+
+    "NB3V8312CMNG+TCXO" [label="NB3V8312CMNG\n+\nTCXO\n(Time Calibration)", style=filled, color=gray]
+    "3.3V" -> "NB3V8312CMNG+TCXO" [label="FBs"]
+
+    "TEMP_SENSORS" [label="Temp Sensors:\nCLK U36 (w/FB)\nDRS U22\nADC U24" style=filled, color=gray]
+    "3.3V" -> "TEMP_SENSORS"
+
+    {rank=same; BME280, I2CMUX, CY8C9560, "NB3V8312CMNG+TCXO", "TEMP_SENSORS"}
+  }
+
+  // DRS Power
+
+  subgraph cluster_drs {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">DRS4 Power</FONT>>
+    labelloc="bot"
+    DRS4 [style=filled, color=gray, width=1.5, height=1.0, fontsize="20pt"]
+    senseDRSDVDD  [label="Current\nSense" shape=oval color=red style=unfilled]
+    senseDRSAVDD  [label="Current\nSense" shape=oval color=red style=unfilled]
+
+    "3.3V" -> "LDO_2V5_DRS_ANA"
+    "LDO_2V5_DRS_ANA" -> "2V5_DRS_ANA"
+    "LDO_2V5_DRS_ANA"  [color=lightgreen label="TPS79525DCQR\nU1"]
+
+    "2V5_DRS_ANA" -> senseDRSAVDD
+    "3.3V" -> senseDRSDVDD
+
+    senseDRSDVDD -> {"DRS4_2V5_ADM"}
+    senseDRSAVDD -> DRS_AVDD
+
+    "DRS4_2V5_ADM"[label="ADM7170ACPZ-2.5-R7"color="lightgreen"]
+
+    "DRS4_2V5_ADM" -> "DRS4_DVDD"
+
+    DRS4_DVDD -> DRS4
+    DRS_AVDD -> DRS4
+  }
+
+  // ADC Power
+  subgraph cluster_adc {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">ADC Power</FONT>>
+    labelloc="bot"
+    ADC [style=filled, color=gray, width=1.5, height=1.0, fontsize="20pt"]
+
+    "3.3V" -> "LDO_3V_ADC_ANA"
+    "LDO_3V_ADC_ANA" -> "3V_ADC_ANA"
+    "LDO_3V_ADC_ANA" [color="lightgreen" label="TPS79530DCQR\nU3"]
+
+    "3.3V" -> "LDO_2V5_ADC_DIG"
+    "LDO_2V5_ADC_DIG"-> "2V5_ADC_DIG"
+    "LDO_2V5_ADC_DIG" [color="lightgreen" label="TPS79525DCQR\nU4"]
+
+    "sense_3V_ADC_ANA"  [label="Current\nSense" shape=oval color=red style=unfilled]
+    "sense_2V5_ADC_DIG"  [label="Current\nSense" shape=oval color=red style=unfilled]
+
+    "2V5_ADC_DIG" -> "sense_2V5_ADC_DIG"
+    "3V_ADC_ANA" -> "sense_3V_ADC_ANA"
+
+    "sense_2V5_ADC_DIG" -> "ADC_DVDD"
+    "sense_3V_ADC_ANA" -> "ADC_AVDD"
+
+
+    "ADC_AVDD" -> "3V_ADC" [label="FB"]
+    "ADC_DVDD" -> "2V5_ADC" [label="FB"]
+
+    "2V5_ADC" -> "ADC"
+    "3V_ADC" -> "ADC"
+  }
+
+  // Clock Synth
+  subgraph cluster_synth {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">Clock Synthesizer Power</FONT>>
+    labelloc="bot"
+
+    "3.3V" -> "CLK_SYNTH_LEDS"
+    "CLK_SYNTH_LEDS" [label="INTR/LOL\nLEDs", color=gray, fontsize="20pt"]
+
+    "3.3V" -> "LDO_CLK_VDD_1V8"
+    "3.3V" -> "LDO_CLK_VDDO_2V5"
+    "4V" -> "LDO_CLK_VDDA_3V3"
+    "4V" -> "LDO_CLK_VDDS_3V3"
+
+    "LDO_CLK_VDD_1V8"  [color="lightgreen" label="TPS78618DCQ\nU6"]
+    "LDO_CLK_VDDO_2V5" [color="lightgreen" label="TPS79425DCQR\nU7"]
+    "LDO_CLK_VDDA_3V3" [color="lightgreen" label="LDK120DM33R\nU8"]
+    "LDO_CLK_VDDS_3V3" [color="lightgreen" label="LDK120DM33R\nU9"]
+
+    "LDO_CLK_VDD_1V8"  -> "CLK_VDD_1V8"
+    "LDO_CLK_VDDO_2V5" -> "CLK_VDDO_2V5"
+    "LDO_CLK_VDDS_3V3" -> "CLK_VDDS_3V3"
+    "LDO_CLK_VDDA_3V3" -> "CLK_VDDA_3V3"
+
+    "CLK_VDDS_3V3" -> XTAL [label="FB"]
+    "CLK_VDD_1V8"  -> SI5345
+    "CLK_VDDO_2V5" -> SI5345
+    "CLK_VDDA_3V3" -> SI5345 [label="FB"]
+
+    SI5345 [style=filled, color=gray, width=1.0, height=1.0, fontsize="20pt"]
+    XTAL  [style=filled, color=gray,  width=1.0, height=1.0, fontsize="20pt"]
+
+    {rank=same; SI5345, XTAL, "CLK_SYNTH_LEDS"}
+  }
+
+  // Op-amps
+  subgraph cluster_fe {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">Analog Front-end Power</FONT>>
+    labelloc="bot"
+    "AD8608" [label="AD8608\nOffset\nBuffer Opamp" style=filled, color=gray]
+    "3.3V" -> "AD8608"
+
+    "AD5675" [label="Offset\nDAC" style=filled, color=gray]
+    "3.3V" -> "AD5675" [label="FB"]
+
+    // Diff amp
+    THS4509 [label="THS4509\n(Amplifier)", style=filled, color=gray]
+    "4V" -> "THS4509" [label="FB"]
+    "-1V" -> "THS4509" [label="FB"]
+
+    // RF swtich
+    HMC849ALP4CE [label="HMC849ALP4CE\nRF Switch"style=filled, color=gray]
+    "3.3V" -> "HMC849ALP4CE" [label="FB"]
+
+    //{rank=same; THS4509, HMC849ALP4CE, AD8608, AD5675}
+  }
+
+  subgraph cluster_ftdi {
+    graph[style=dotted];
+    label=<<FONT POINT-SIZE="20">FTDI UART Power</FONT>>
+    USB [color="orange" label="USB Connector"]
+    FTDI [style=filled, color=gray]
+    USB -> FTDI
+    USB -> MCP1812 [label="FB"]
+    MCP1812 -> FTDI
+    MCP1812 [color="lightgreen" label="MCP1812AT-018/TT"]
+  }
+
+  {rank=same; "3V3_ZYNQ", "-1V", "4V", "3.3V"}
+}
