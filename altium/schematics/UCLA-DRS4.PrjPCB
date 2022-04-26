@@ -8673,23 +8673,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HRYRGXFF
 
 [Document508]
-DocumentPath=UCLA-DRS4.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IVYAEPSU
-
-[Document509]
 DocumentPath=..\parts\MTHNP89MIL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8706,7 +8689,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVHTFIUE
 
-[Document510]
+[Document509]
 DocumentPath=..\parts\MTHNP89MIL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8722,6 +8705,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTIMFUPR
+
+[Document510]
+DocumentPath=UCLA-DRS4.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VWSYAJIA
 
 [ProjectVariant1]
 UniqueID=3E8A280C-C0EF-49EE-AD88-5410BBE5F314
