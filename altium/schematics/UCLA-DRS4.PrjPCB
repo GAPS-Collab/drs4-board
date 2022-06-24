@@ -8486,23 +8486,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GEFZKJHP
 
 [Document497]
-DocumentPath=UCLA-DRS4.BomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document498]
 DocumentPath=..\parts\Libraries\IC_Texas_Instruments_TLV70218DBVT.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8519,7 +8502,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHBIPEON
 
-[Document499]
+[Document498]
 DocumentPath=..\parts\Libraries\SI5345B-B-GM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8536,7 +8519,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MFSNQBZF
 
-[Document500]
+[Document499]
 DocumentPath=..\parts\Libraries\IC_Texas_Instruments_TLV70218DBVT_0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8553,7 +8536,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document501]
+[Document500]
 DocumentPath=..\parts\Libraries\LDK120DM33R.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8570,7 +8553,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LACPIECU
 
-[Document502]
+[Document501]
 DocumentPath=..\parts\Libraries\NB3V8312CMNG.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8587,7 +8570,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PARVRUOB
 
-[Document503]
+[Document502]
 DocumentPath=CLK_SYNTH.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8604,7 +8587,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document504]
+[Document503]
 DocumentPath=..\parts\Libraries\5-103673-2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8621,7 +8604,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCKQZNET
 
-[Document505]
+[Document504]
 DocumentPath=..\parts\Libraries\70246-4402.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8638,7 +8621,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYWULDNQ
 
-[Document506]
+[Document505]
 DocumentPath=..\parts\Libraries\MTHNP126MIL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8655,7 +8638,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ODSGSHXN
 
-[Document507]
+[Document506]
 DocumentPath=..\parts\Libraries\MTHNP126MIL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8672,7 +8655,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRYRGXFF
 
-[Document508]
+[Document507]
 DocumentPath=..\parts\MTHNP89MIL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8689,7 +8672,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVHTFIUE
 
-[Document509]
+[Document508]
 DocumentPath=..\parts\MTHNP89MIL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8706,7 +8689,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTIMFUPR
 
-[Document510]
+[Document509]
 DocumentPath=UCLA-DRS4.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -8732,6 +8715,154 @@ VariationCount=2
 Variation1=Designator=R372|UniqueId=\HWAUTUQI\SIBOWCSB\MSBXIAEP|Kind=1|AlternatePart= 
 Variation2=Designator=R376|UniqueId=\HWAUTUQI\SIBOWCSB\RIEQKXKS|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for UCLA-DRS4\Design Rule Check - DRS4-PCB_V2_5.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.REP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_9.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_7.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_10.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_11.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_12.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_29.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Soldermask_Top.gbr
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Revision
@@ -9127,73 +9258,77 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=NC Drill
-OutputName1=NC Drill Files
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
-Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
-OutputType2=Mask
-OutputName2=Solder/Paste Mask Prints
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=IPC2581
-OutputName3=IPC-2581 Files
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=Test Points
-OutputName4=Test Point Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType4=Final
+OutputName4=Final Artwork Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Plane
-OutputName5=Power-Plane Prints
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=40|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777223~1,16777224~1,16908317~1,16777221~1,16973833~1,16908298~1,16777227~1,16908289~1,16777226~1,16908295~1,16908303~1,16973848~1,16908301~1,16777219~1,16973831~1,16908299~1,16973849~1,16777220~1,16973835~1,16973830~1,16973832~1,16777225~1,16842751~1,16908300~1,16973834~1,16777218~1,16777222~1|PlusApertureTolerance=40|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\DRS4-PCB_V2_5.PcbDoc
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Drill
-OutputName7=Drill Drawing/Guides
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=CompositeDrill
-OutputName8=Composite Drill Drawing
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Board Stack Report
-OutputName9=Report Board Stack
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Final
-OutputName11=Final Artwork Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
