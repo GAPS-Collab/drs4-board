@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\DRS4-PCB_V2_5.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=drs4-pcb_v2_5-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=drs4-pcb_v2_5-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,gbl
