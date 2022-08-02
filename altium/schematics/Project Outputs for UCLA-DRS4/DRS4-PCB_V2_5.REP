@@ -1,150 +1,1511 @@
 *************************************************************
-FileName = DRS4-PCB_V2_5.PcbDoc
-ODB++ directory structure
+FileName = DRS4-PCB_V2_5.GBR
+AutoAperture = True
 *************************************************************
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\profile
+Generating : Mechanical 29
+      File : DRS4-PCB_V2_5.GM29
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\stephdr
+    Adding Layer      : Mechanical 29
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_2\features
+Used DCodes :
+    D13
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_2\attrlist
+*************************************************************
+Generating : Bottom Assembly
+      File : DRS4-PCB_V2_5.GM20
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_9\features
+    Adding Layer      : Bottom Assembly
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_9\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_11\features
+Used DCodes :
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_11\attrlist
+*************************************************************
+Generating : Top Component Center
+      File : DRS4-PCB_V2_5.GM16
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_6\features
+    Adding Layer      : Top Component Center
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_6\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\signal_layer_3\features
+Used DCodes :
+    D13
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\signal_layer_3\attrlist
+*************************************************************
+Generating : Mechanical 15
+      File : DRS4-PCB_V2_5.GM15
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_1\features
+    Adding Layer      : Mechanical 15
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_1\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_5\features
+Used DCodes :
+    D12
+    D13
+    D18
+    D21
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_5\attrlist
+*************************************************************
+Generating : Mechanical 13
+      File : DRS4-PCB_V2_5.GM13
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+    Adding Layer      : Mechanical 13
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+Used DCodes :
+    D13
+    D16
+    D17
+    D18
+    D19
+    D23
+    D385
+    D386
+    D387
+    D388
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_3\features
+*************************************************************
+Generating : Mechanical 12
+      File : DRS4-PCB_V2_5.GM12
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_3\attrlist
+    Adding Layer      : Mechanical 12
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_8\features
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_8\attrlist
+Used DCodes :
+    D16
+    D18
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_9\features
+*************************************************************
+Generating : Mechanical 11
+      File : DRS4-PCB_V2_5.GM11
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_9\attrlist
+    Adding Layer      : Mechanical 11
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_plated_bottom-top\features
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+Used DCodes :
+    D13
+    D16
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+*************************************************************
+Generating : Mechanical 10
+      File : DRS4-PCB_V2_5.GM10
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\signal_layer_4\features
+    Adding Layer      : Mechanical 10
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\signal_layer_4\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_10\features
+Used DCodes :
+    D18
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_10\attrlist
+*************************************************************
+Generating : Mechanical 7
+      File : DRS4-PCB_V2_5.GM7
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_11\features
+    Adding Layer      : Mechanical 7
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_11\attrlist
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_4\features
+Used DCodes :
+    D385
+*************************************************************
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_4\attrlist
+*************************************************************
+Generating : Top Assembly
+      File : DRS4-PCB_V2_5.GM5
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_2\features
+    Adding Layer      : Top Assembly
 
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_2\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_5\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_5\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_7\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\dielectric_7\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_paste\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_paste\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_7\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_7\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_8\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\ground_layer_8\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_10\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_10\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_paste\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_paste\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_6\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\power_layer_6\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_overlay\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_overlay\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_solder\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_solder\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_solder\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_solder\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_layer\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\bottom_layer\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_layer\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_layer\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_overlay\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\top_overlay\attrlist
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\comp_+_bot\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\comp_+_bot\components
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\comp_+_top\features
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\layers\comp_+_top\components
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\steps\pcb\eda\data
-
-Generated File : C:\Users\takeruhayashi\gaps\readout-board\drs4-board\altium\schematics\Project Outputs for UCLA-DRS4\odb\matrix\matrix
+
+Used DCodes :
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : DRS4-PCB_V2_5.GM3
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : DRS4-PCB_V2_5.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D16
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : DRS4-PCB_V2_5.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+    D21
+    D384
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : DRS4-PCB_V2_5.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D21
+    D22
+    D23
+    D283
+    D383
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : DRS4-PCB_V2_5.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D52
+    D55
+    D56
+    D58
+    D78
+    D81
+    D84
+    D88
+    D91
+    D92
+    D95
+    D99
+    D100
+    D102
+    D103
+    D104
+    D105
+    D109
+    D111
+    D112
+    D116
+    D285
+    D286
+    D287
+    D288
+    D289
+    D290
+    D291
+    D292
+    D293
+    D294
+    D295
+    D296
+    D297
+    D298
+    D299
+    D300
+    D301
+    D302
+    D303
+    D304
+    D305
+    D307
+    D308
+    D310
+    D311
+    D312
+    D313
+    D314
+    D315
+    D316
+    D317
+    D318
+    D319
+    D320
+    D322
+    D323
+    D324
+    D325
+    D326
+    D327
+    D328
+    D329
+    D330
+    D331
+    D332
+    D381
+    D382
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : DRS4-PCB_V2_5.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D95
+    D100
+    D109
+    D130
+    D133
+    D134
+    D136
+    D153
+    D157
+    D159
+    D163
+    D166
+    D167
+    D170
+    D171
+    D172
+    D173
+    D174
+    D179
+    D182
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+    D287
+    D292
+    D295
+    D298
+    D299
+    D302
+    D319
+    D320
+    D321
+    D328
+    D331
+    D342
+    D343
+    D344
+    D345
+    D346
+    D347
+    D348
+    D349
+    D350
+    D351
+    D352
+    D353
+    D354
+    D355
+    D356
+    D357
+    D358
+    D359
+    D360
+    D361
+    D362
+    D363
+    D364
+    D365
+    D366
+    D367
+    D368
+    D369
+    D370
+    D371
+    D372
+    D373
+    D374
+    D375
+    D376
+    D377
+    D378
+    D379
+    D380
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : DRS4-PCB_V2_5.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D35
+    D38
+    D39
+    D40
+    D41
+    D45
+    D46
+    D49
+    D50
+    D51
+    D62
+    D63
+    D73
+    D74
+    D75
+    D76
+    D77
+    D83
+    D85
+    D86
+    D93
+    D95
+    D96
+    D97
+    D100
+    D101
+    D109
+    D112
+    D115
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+    D214
+    D215
+    D216
+    D217
+    D218
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : DRS4-PCB_V2_5.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : DRS4-PCB_V2_5.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : DRS4-PCB_V2_5.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D113
+    D114
+    D115
+    D116
+    D117
+    D139
+    D140
+    D141
+    D160
+    D161
+    D184
+    D186
+    D187
+    D188
+    D199
+    D200
+    D201
+    D202
+    D210
+    D220
+    D221
+    D222
+    D223
+    D224
+    D225
+    D252
+    D253
+    D254
+    D255
+    D256
+    D257
+    D258
+    D259
+    D260
+    D261
+    D262
+    D263
+    D264
+    D265
+    D266
+    D267
+    D268
+    D269
+    D270
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : DRS4-PCB_V2_5.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D52
+    D55
+    D56
+    D58
+    D78
+    D81
+    D84
+    D88
+    D91
+    D92
+    D95
+    D99
+    D100
+    D102
+    D103
+    D104
+    D105
+    D109
+    D111
+    D116
+    D186
+    D187
+    D188
+    D199
+    D200
+    D201
+    D202
+    D210
+    D252
+    D253
+    D254
+    D255
+    D256
+    D257
+    D258
+    D259
+    D260
+    D261
+    D262
+    D263
+    D264
+    D265
+    D266
+    D267
+    D268
+    D269
+    D270
+    D285
+    D286
+    D287
+    D288
+    D289
+    D290
+    D291
+    D292
+    D293
+    D294
+    D295
+    D296
+    D297
+    D298
+    D299
+    D300
+    D301
+    D302
+    D303
+    D304
+    D305
+    D306
+    D307
+    D308
+    D309
+    D310
+    D311
+    D312
+    D313
+    D314
+    D315
+    D316
+    D317
+    D318
+    D319
+    D320
+    D321
+    D322
+    D323
+    D324
+    D325
+    D326
+    D327
+    D328
+    D329
+    D330
+    D331
+    D332
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : DRS4-PCB_V2_5.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D14
+    D18
+    D19
+    D20
+    D35
+    D52
+    D55
+    D56
+    D58
+    D78
+    D81
+    D84
+    D88
+    D91
+    D92
+    D95
+    D99
+    D100
+    D102
+    D103
+    D104
+    D105
+    D109
+    D111
+    D116
+    D186
+    D187
+    D188
+    D199
+    D200
+    D201
+    D202
+    D210
+    D219
+    D225
+    D226
+    D227
+    D230
+    D231
+    D232
+    D234
+    D235
+    D236
+    D238
+    D239
+    D246
+    D247
+    D252
+    D253
+    D254
+    D255
+    D256
+    D257
+    D258
+    D259
+    D260
+    D261
+    D262
+    D263
+    D264
+    D265
+    D266
+    D267
+    D268
+    D269
+    D270
+    D271
+    D272
+    D273
+    D274
+    D275
+    D276
+    D278
+    D279
+    D283
+    D285
+    D286
+    D287
+    D288
+    D289
+    D290
+    D291
+    D292
+    D293
+    D294
+    D295
+    D296
+    D297
+    D298
+    D299
+    D300
+    D301
+    D302
+    D303
+    D304
+    D305
+    D306
+    D307
+    D308
+    D309
+    D310
+    D311
+    D312
+    D313
+    D314
+    D315
+    D316
+    D317
+    D318
+    D319
+    D320
+    D321
+    D322
+    D323
+    D324
+    D325
+    D326
+    D327
+    D328
+    D329
+    D330
+    D331
+    D332
+    D333
+    D334
+    D335
+    D336
+    D337
+    D338
+    D339
+    D340
+    D341
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer 11
+      File : DRS4-PCB_V2_5.G10
+
+    Adding Layer      : Ground Layer 11
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D187
+    D199
+    D201
+    D202
+    D210
+    D225
+    D253
+    D254
+    D255
+    D259
+    D261
+    D262
+    D266
+    D270
+    D272
+    D274
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Power Layer 10
+      File : DRS4-PCB_V2_5.G9
+
+    Adding Layer      : Power Layer 10
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D199
+    D225
+    D226
+    D236
+    D246
+    D248
+    D259
+    D273
+    D275
+    D284
+*************************************************************
+
+*************************************************************
+Generating : Power Layer 9
+      File : DRS4-PCB_V2_5.G8
+
+    Adding Layer      : Power Layer 9
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D225
+    D230
+    D237
+    D259
+    D273
+    D283
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer 8
+      File : DRS4-PCB_V2_5.G7
+
+    Adding Layer      : Ground Layer 8
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D187
+    D199
+    D201
+    D202
+    D210
+    D225
+    D253
+    D254
+    D255
+    D259
+    D261
+    D262
+    D266
+    D270
+    D272
+    D274
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer 7
+      File : DRS4-PCB_V2_5.G6
+
+    Adding Layer      : Ground Layer 7
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D187
+    D199
+    D201
+    D202
+    D210
+    D225
+    D253
+    D254
+    D255
+    D259
+    D261
+    D262
+    D266
+    D270
+    D272
+    D274
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Power Layer 6
+      File : DRS4-PCB_V2_5.G5
+
+    Adding Layer      : Power Layer 6
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D225
+    D259
+    D274
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer 5
+      File : DRS4-PCB_V2_5.G4
+
+    Adding Layer      : Ground Layer 5
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D187
+    D199
+    D201
+    D202
+    D210
+    D225
+    D253
+    D254
+    D255
+    D259
+    D261
+    D262
+    D266
+    D270
+    D272
+    D274
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 4
+      File : DRS4-PCB_V2_5.G3
+
+    Adding Layer      : Signal Layer 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D14
+    D18
+    D25
+    D225
+    D230
+    D237
+    D252
+    D253
+    D263
+    D271
+    D274
+    D280
+    D281
+    D282
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 3
+      File : DRS4-PCB_V2_5.G2
+
+    Adding Layer      : Signal Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D219
+    D225
+    D277
+    D278
+    D279
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer 2
+      File : DRS4-PCB_V2_5.G1
+
+    Adding Layer      : Ground Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D187
+    D199
+    D201
+    D202
+    D210
+    D225
+    D253
+    D254
+    D255
+    D259
+    D261
+    D262
+    D266
+    D270
+    D272
+    D274
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : DRS4-PCB_V2_5.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+    D17
+    D18
+    D19
+    D20
+    D25
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D113
+    D114
+    D115
+    D116
+    D117
+    D139
+    D140
+    D141
+    D160
+    D161
+    D184
+    D186
+    D187
+    D188
+    D199
+    D200
+    D201
+    D202
+    D210
+    D219
+    D220
+    D221
+    D222
+    D223
+    D224
+    D225
+    D226
+    D227
+    D228
+    D229
+    D230
+    D231
+    D232
+    D233
+    D234
+    D235
+    D236
+    D237
+    D238
+    D239
+    D240
+    D241
+    D242
+    D243
+    D244
+    D245
+    D246
+    D247
+    D248
+    D249
+    D250
+    D251
+    D252
+    D253
+    D254
+    D255
+    D256
+    D257
+    D258
+    D259
+    D260
+    D261
+    D262
+    D263
+    D264
+    D265
+    D266
+    D267
+    D268
+    D269
+    D270
+    D271
+    D272
+    D273
+    D274
+    D275
+    D276
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : DRS4-PCB_V2_5.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D390
+    D391
+    D392
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : DRS4-PCB_V2_5.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D390
+*************************************************************
 
