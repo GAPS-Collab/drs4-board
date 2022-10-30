@@ -5746,7 +5746,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OGECTTPK
+DocumentUniqueId=QDQJMEQO
 
 [Document336]
 DocumentPath=..\parts\Libraries\SODIMM200.SchLib
@@ -8551,7 +8551,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LACPIECU
+DocumentUniqueId=DUGKFKSK
 
 [Document501]
 DocumentPath=..\parts\Libraries\NB3V8312CMNG.SchLib
@@ -8723,40 +8723,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document511]
-DocumentPath=..\..\..\..\..\google_drive\GAPS\readout-board\production\readout-board_V2_5.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document512]
-DocumentPath=..\..\..\..\..\google_drive\GAPS\readout-board\production\readout-board_V2_5_drill.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=3E8A280C-C0EF-49EE-AD88-5410BBE5F314
 Description=DNI
@@ -8768,327 +8734,15 @@ Variation2=Designator=R376|UniqueId=\HWAUTUQI\SIBOWCSB\RIEQKXKS|Kind=1|Alternate
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UCLA-DRS4\Design Rule Check - DRS4-PCB_V2_5.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G3
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G4
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G5
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G6
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G7
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G8
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G9
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.G10
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM10
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM11
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM12
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM20
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM21
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM23
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM24
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GM29
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument45]
 DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.REP
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_5.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_6.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_7.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_8.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_9.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_10.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_7.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_10.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_11.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_12.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_13.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_15.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Mechanical_29.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument75]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument76]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument77]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument78]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument79]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument80]
-DocumentPath=Project Outputs for UCLA-DRS4\DRS4-PCB_V2_5_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument81]
-DocumentPath=Project Outputs for UCLA-DRS4\Pick Place for DRS4-PCB_V2_5.txt
 DItemRevisionGUID=
 
 [Parameter1]
@@ -9857,6 +9511,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -9989,6 +9648,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
