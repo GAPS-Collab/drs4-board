@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DRS4-PCB_V2_5.PcbDoc   11/14/2022  12:37:49 PM
+NCDrill File Report For: DRS4-PCB_V2_5.PcbDoc   11/27/2022  7:02:23 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -10,7 +10,7 @@ Tool       Hole Size               Hole Tolerance               Hole Type       
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      8mil (0.2mm)                                              Round             58        PTH        28.55inch (725.28mm)
 T2      8mil (0.203mm)                                            Round             12        PTH        0.88inch (22.48mm)
-T3      10mil (0.254mm)                                           Round             1897      PTH        293.15inch (7445.92mm)
+T3      10mil (0.254mm)                                           Round             1898      PTH        293.50inch (7454.79mm)
 T4      15mil (0.381mm)                                           Round             15        PTH        2.93inch (74.36mm)
 T5      20mil (0.508mm)                                           Round             1         PTH        0.00inch (0.00mm)
 T6      22mil (0.55mm)                                            Slot              2         PTH        0.66inch (16.83mm)
@@ -36,6 +36,6 @@ T25     89mil (2.261mm)                                           Round         
 T26     124mil (3.15mm)                                           Round             2         NPTH       0.50inch (12.70mm)
 T27     126mil (3.2mm)                                            Round             11        NPTH       57.45inch (1459.17mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              2122
+Totals                                                                              2123
 
-Total Processing Time (hh:mm:ss) : 00:00:05
+Total Processing Time (hh:mm:ss) : 00:00:04
